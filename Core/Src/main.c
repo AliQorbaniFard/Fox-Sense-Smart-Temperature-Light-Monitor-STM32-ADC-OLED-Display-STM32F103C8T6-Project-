@@ -131,7 +131,7 @@ int main(void)
 	  SSD1306_DrawBitmap(0, 0, degree_C, 128, 64, 1);
 
 	  //---Show bulb/moon image on OLED
-	  if(Light_intensity > 30)						//if there is enough lights
+	  if(Light_intensity > 30)						//if there is enough light
 	  SSD1306_DrawBitmap(0, 0, bulb, 128, 64, 1);
 
 	  if(Light_intensity <= 30)						//if the environment is dark
